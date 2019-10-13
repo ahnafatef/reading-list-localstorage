@@ -1,3 +1,4 @@
+let books = [] // array containing book objects {title: '', author: ''}
 
 /* Check localStorage for books */
 
@@ -14,6 +15,3 @@
 */
 
 /* Refreshing the page, should show all the stored books */
-
-
-let books = [] // array containing book objects {title: '', author: ''}

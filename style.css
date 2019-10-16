@@ -1,3 +1,9 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
 body {
     text-align: center;
     font-size: 18px;
@@ -8,4 +14,9 @@ button {
     padding: 5px;
     border-radius: 0.5em;
     background-color: #c8ebde;
+    outline-style: none;
+}
+
+.hideForm {
+	display: none;
 }
